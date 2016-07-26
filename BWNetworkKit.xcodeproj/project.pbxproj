@@ -73,6 +73,7 @@
 		B44DE9091D477265004C946E /* BWNetworkCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWNetworkCenter.h; sourceTree = "<group>"; };
 		B44DE90A1D477265004C946E /* BWNetworkCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWNetworkCenter.m; sourceTree = "<group>"; };
 		B44DE9131D4772F7004C946E /* BWNetworkKit.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWNetworkKit.pch; sourceTree = "<group>"; };
+		B44DE9141D477425004C946E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		B8FC9B68E6B83687DB613874 /* libPods-BWNetworkKitUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BWNetworkKitUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDC0DE023E14190514FA3621 /* Pods-BWNetworkKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWNetworkKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-BWNetworkKit/Pods-BWNetworkKit.release.xcconfig"; sourceTree = "<group>"; };
 		CEAE51C65038F31C9195A14E /* libPods-BWNetworkKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BWNetworkKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -148,6 +149,7 @@
 		B44DE8C11D4771AB004C946E /* BWNetworkKit */ = {
 			isa = PBXGroup;
 			children = (
+				B44DE9141D477425004C946E /* README.md */,
 				B44DE8C51D4771AB004C946E /* AppDelegate.h */,
 				B44DE8C61D4771AB004C946E /* AppDelegate.m */,
 				B44DE8F51D477265004C946E /* Common */,

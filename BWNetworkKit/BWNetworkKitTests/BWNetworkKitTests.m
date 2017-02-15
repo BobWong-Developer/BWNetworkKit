@@ -2,8 +2,8 @@
 //  BWNetworkKitTests.m
 //  BWNetworkKitTests
 //
-//  Created by BobWong on 16/8/23.
-//  Copyright © 2016年 BobWong. All rights reserved.
+//  Created by BobWong on 2017/2/15.
+//  Copyright © 2017年 BobWong. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>

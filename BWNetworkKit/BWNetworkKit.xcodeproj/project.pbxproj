@@ -15,6 +15,8 @@
 		B48BB5CC1E5451C8006F1B1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B48BB5CA1E5451C8006F1B1A /* LaunchScreen.storyboard */; };
 		B48BB5D71E5451C9006F1B1A /* BWNetworkKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B48BB5D61E5451C9006F1B1A /* BWNetworkKitTests.m */; };
 		B48BB5E21E5451C9006F1B1A /* BWNetworkKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B48BB5E11E5451C9006F1B1A /* BWNetworkKitUITests.m */; };
+		B4B92D8D201ED3D20008A4A6 /* BWYTKLoginApi.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B92D8C201ED3D20008A4A6 /* BWYTKLoginApi.m */; };
+		FE211D668E6F9C58AC821B04 /* libPods-BWNetworkKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17DC1B38AF1A549209FF0935 /* libPods-BWNetworkKit.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		17DC1B38AF1A549209FF0935 /* libPods-BWNetworkKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BWNetworkKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23B7EA081DBE7A87444BB2A9 /* Pods-BWNetworkKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWNetworkKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-BWNetworkKit/Pods-BWNetworkKit.release.xcconfig"; sourceTree = "<group>"; };
 		B48BB5B91E5451C8006F1B1A /* BWNetworkKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BWNetworkKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B48BB5BD1E5451C8006F1B1A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B48BB5BF1E5451C8006F1B1A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +55,9 @@
 		B48BB5DD1E5451C9006F1B1A /* BWNetworkKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BWNetworkKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B48BB5E11E5451C9006F1B1A /* BWNetworkKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWNetworkKitUITests.m; sourceTree = "<group>"; };
 		B48BB5E31E5451C9006F1B1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4B92D8B201ED3D20008A4A6 /* BWYTKLoginApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWYTKLoginApi.h; sourceTree = "<group>"; };
+		B4B92D8C201ED3D20008A4A6 /* BWYTKLoginApi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWYTKLoginApi.m; sourceTree = "<group>"; };
+		D09A88B268A10848B4A5A88B /* Pods-BWNetworkKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWNetworkKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BWNetworkKit/Pods-BWNetworkKit.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE211D668E6F9C58AC821B04 /* libPods-BWNetworkKit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +86,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		966EAFE05190A96989AEA6C5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D09A88B268A10848B4A5A88B /* Pods-BWNetworkKit.debug.xcconfig */,
+				23B7EA081DBE7A87444BB2A9 /* Pods-BWNetworkKit.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B48BB5B01E5451C8006F1B1A = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +102,8 @@
 				B48BB5D51E5451C9006F1B1A /* BWNetworkKitTests */,
 				B48BB5E01E5451C9006F1B1A /* BWNetworkKitUITests */,
 				B48BB5BA1E5451C8006F1B1A /* Products */,
+				966EAFE05190A96989AEA6C5 /* Pods */,
+				BAB5AC5A68FF9F80A9EA166B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,8 +126,7 @@
 				B48BB5C31E5451C8006F1B1A /* ViewController.m */,
 				B48BB5C51E5451C8006F1B1A /* Main.storyboard */,
 				B48BB5C81E5451C8006F1B1A /* Assets.xcassets */,
-				B48BB5CA1E5451C8006F1B1A /* LaunchScreen.storyboard */,
-				B48BB5CD1E5451C8006F1B1A /* Info.plist */,
+				B4B92D87201EB3F20008A4A6 /* Network */,
 				B48BB5BC1E5451C8006F1B1A /* Supporting Files */,
 			);
 			path = BWNetworkKit;
@@ -118,6 +136,8 @@
 			isa = PBXGroup;
 			children = (
 				B48BB5BD1E5451C8006F1B1A /* main.m */,
+				B48BB5CD1E5451C8006F1B1A /* Info.plist */,
+				B48BB5CA1E5451C8006F1B1A /* LaunchScreen.storyboard */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -140,6 +160,47 @@
 			path = BWNetworkKitUITests;
 			sourceTree = "<group>";
 		};
+		B4B92D87201EB3F20008A4A6 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				B4B92D89201EB3F20008A4A6 /* NSURLSession */,
+				B4B92D88201EB3F20008A4A6 /* AFNetworking */,
+				B4B92D8A201EB3F20008A4A6 /* YTKNetwork */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		B4B92D88201EB3F20008A4A6 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		B4B92D89201EB3F20008A4A6 /* NSURLSession */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NSURLSession;
+			sourceTree = "<group>";
+		};
+		B4B92D8A201EB3F20008A4A6 /* YTKNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				B4B92D8B201ED3D20008A4A6 /* BWYTKLoginApi.h */,
+				B4B92D8C201ED3D20008A4A6 /* BWYTKLoginApi.m */,
+			);
+			path = YTKNetwork;
+			sourceTree = "<group>";
+		};
+		BAB5AC5A68FF9F80A9EA166B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17DC1B38AF1A549209FF0935 /* libPods-BWNetworkKit.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +208,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B48BB5E61E5451C9006F1B1A /* Build configuration list for PBXNativeTarget "BWNetworkKit" */;
 			buildPhases = (
+				28119ACF380EA939F4403692 /* [CP] Check Pods Manifest.lock */,
 				B48BB5B51E5451C8006F1B1A /* Sources */,
 				B48BB5B61E5451C8006F1B1A /* Frameworks */,
 				B48BB5B71E5451C8006F1B1A /* Resources */,
+				368D34E7C1B3249A000CDA9F /* [CP] Embed Pods Frameworks */,
+				B5EB214B0040C5356ED1713C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -271,6 +335,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		28119ACF380EA939F4403692 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BWNetworkKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		368D34E7C1B3249A000CDA9F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BWNetworkKit/Pods-BWNetworkKit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5EB214B0040C5356ED1713C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BWNetworkKit/Pods-BWNetworkKit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B48BB5B51E5451C8006F1B1A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -278,6 +393,7 @@
 			files = (
 				B48BB5C41E5451C8006F1B1A /* ViewController.m in Sources */,
 				B48BB5C11E5451C8006F1B1A /* AppDelegate.m in Sources */,
+				B4B92D8D201ED3D20008A4A6 /* BWYTKLoginApi.m in Sources */,
 				B48BB5BE1E5451C8006F1B1A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -423,6 +539,7 @@
 		};
 		B48BB5E71E5451C9006F1B1A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D09A88B268A10848B4A5A88B /* Pods-BWNetworkKit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = V3E8GUFW32;
@@ -435,6 +552,7 @@
 		};
 		B48BB5E81E5451C9006F1B1A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23B7EA081DBE7A87444BB2A9 /* Pods-BWNetworkKit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = V3E8GUFW32;
@@ -514,6 +632,7 @@
 				B48BB5E81E5451C9006F1B1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B48BB5E91E5451C9006F1B1A /* Build configuration list for PBXNativeTarget "BWNetworkKitTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +641,7 @@
 				B48BB5EB1E5451C9006F1B1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B48BB5EC1E5451C9006F1B1A /* Build configuration list for PBXNativeTarget "BWNetworkKitUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +650,7 @@
 				B48BB5EE1E5451C9006F1B1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
